@@ -8,7 +8,7 @@ def find_max_value(array)
       max = array[counter +1]
     end
     counter += 1
-    binding.pry
   end
   return max
 end
+binding.pry
