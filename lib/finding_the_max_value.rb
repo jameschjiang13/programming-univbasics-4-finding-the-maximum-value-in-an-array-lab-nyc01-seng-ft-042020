@@ -10,6 +10,5 @@ def find_max_value(array)
     counter += 1
   end
   binding.pry
-
   return max
 end
