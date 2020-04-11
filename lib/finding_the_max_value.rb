@@ -4,8 +4,8 @@ def find_max_value(array)
   max = array[0]
   counter = 0
   while counter < (array.length) do
-    if array [counter+1] > max
-      max = array[counter +1]
+    if array [counter] > max
+      max = array[counter]
     end
     counter += 1
   end
