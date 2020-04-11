@@ -6,9 +6,10 @@ def find_max_value(array)
   while array[counter] do
     if array [counter+1] > array [counter]
       max = array[counter +1]
-      binding.pry
     end
     counter += 1
   end
   return max
 end
+
+binding.pry
